@@ -44,9 +44,17 @@ python -m retrain \
   --image_dir=flores
 
 ### Testa o modelo treinado
-python label_image.py tulipa.jpg
+>> Baixe imagens de acordo com a categoria treinada, margarida ou tulipa, o coloque no diretório onde estão todos os arquivos
+>> Use o comando abaixo passando o nome da imagem baixada
+>> python label_image.py tulipa.jpg
 
-## Passo-a-passo para somente classificar as flores (
+## Passo-a-passo para somente classificar as flores
+
+### Baixe o Docker
+https://www.docker.com/get-started
+
+### Abrir PowerShell
+Crie uma pasta no computador, pressione o shift + clique com botão direito "Abrir janela PowerShell aqui" 
 
 ### Testa a instalação do Docker
 docker run hello-world
@@ -54,7 +62,15 @@ docker run hello-world
 ### Baixa a imagem do TensorFlow ( se não já estiver baixado )
 docker pull tensorflow/tensorflow
 
+### Baixe os arquivos disponíveis
+baixe os arquivos deste repositório e coloque na pasta criada
+
 ### Carregando o container TensorFlow
 docker run -it --volume ${PWD}:/tf_files --workdir /tf_files --publish 6006:6006 tensorflow/tensorflow:1.1.0 bash
 
-### Baixe
+### Testa o modelo treinado
+>> Baixe imagens de acordo com a categoria treinada, margarida ou tulipa, o coloque no diretório onde estão todos os arquivos
+>> Use o comando abaixo passando o nome da imagem baixada
+>> python label_image.py tulipa.jpg
+
+
