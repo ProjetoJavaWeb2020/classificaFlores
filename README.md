@@ -46,6 +46,7 @@ python -m retrain \
 ### Testa o modelo treinado
 >> Baixe imagens de acordo com a categoria treinada, margarida ou tulipa, o coloque no diretório onde estão todos os arquivos
 >> Use o comando abaixo passando o nome da imagem baixada
+
 >> python label_image.py tulipa.jpg
 
 ## Passo-a-passo para somente classificar as flores
@@ -71,6 +72,7 @@ docker run -it --volume ${PWD}:/tf_files --workdir /tf_files --publish 6006:6006
 ### Testa o modelo treinado
 >> Baixe imagens de acordo com a categoria treinada, margarida ou tulipa, o coloque no diretório onde estão todos os arquivos
 >> Use o comando abaixo passando o nome da imagem baixada
+
 >> python label_image.py tulipa.jpg
 
 
