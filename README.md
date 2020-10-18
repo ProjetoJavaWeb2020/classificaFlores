@@ -25,9 +25,11 @@ docker run -it --volume ${PWD}:/tf_files --workdir /tf_files --publish 6006:6006
   Banco de imagens disponível : http://download.tensorflow.org/example_images/flower_photos.tgz
    
 >> Baixa arquivo retrain.py
+
 >> curl -O https://raw.githubusercontent.com/tensorflow/tensorflow/r1.1/tensorflow/examples/image_retraining/retrain.py
 
 >> Baixa arquivo label_image.py
+
 >> curl -L https://goo.gl/3lTKZs > label_image.py
 
 ### Baixa o Inception e começa o treinamento
