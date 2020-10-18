@@ -44,7 +44,6 @@ python -m retrain \
 ### Testa o modelo treinado
 python label_image.py tulipa.jpg
 
-
 ## Passo-a-passo para somente classificar as flores (
 
 ### Testa a instalação do Docker
