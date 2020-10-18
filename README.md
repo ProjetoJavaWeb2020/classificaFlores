@@ -18,11 +18,11 @@ docker pull tensorflow/tensorflow
 ### Carregando o container TensorFlow
 docker run -it --volume ${PWD}:/tf_files --workdir /tf_files --publish 6006:6006 tensorflow/tensorflow:1.1.0 bash
 
-### Adicionar arquivos no diretório criado
+### Adicionar os seguintes arquivos no diretório criado
   
-  Crie uma pasta com nome flores e adicione dentro dela as pastas de imagens "margarida" e "tulipa"
-  Caso queira treinar outras categorias de flores basta colocar as pastas com as imagens das categorias desejadas.
-  Banco de imagens disponível : http://download.tensorflow.org/example_images/flower_photos.tgz
+>> Crie uma pasta com nome flores e adicione dentro dela as pastas de imagens "margarida" e "tulipa"
+>> Caso queira treinar outras categorias de flores basta colocar as pastas com as imagens das categorias desejadas.
+>> Banco de imagens disponível : http://download.tensorflow.org/example_images/flower_photos.tgz
    
 >> Baixa arquivo retrain.py
 
