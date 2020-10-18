@@ -1,7 +1,7 @@
 # Classificador de flores usando Inception v3 da plataforma TensorFlow
 
 
-## Comandos a serem executados passo-a-passo
+## Passo-a-passo
 
 ### Testa a instalação do Docker
 docker run hello-world
