@@ -1,6 +1,6 @@
 # Classificador de flores usando Inception v3 da plataforma TensorFlow
 
-### ***Devido o tamanho do diretório onde contem os arquivos necessiários para executar os procedimentos abaixo ser maior que 100MB o mesmo foi carregado no Google Drive***
+### ***Devido o tamanho do diretório onde contêm os arquivos necessários para executar os procedimentos abaixo ser maior que 100MB o mesmo foi carregado no Google Drive***
 >> https://drive.google.com/drive/folders/1E4LIKSvx0Mo5lwWm8Nk_TpVKX8Rlayih?usp=sharing
 
 
