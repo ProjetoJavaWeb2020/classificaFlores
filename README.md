@@ -20,7 +20,7 @@ docker run -it --volume ${PWD}:/tf_files --workdir /tf_files --publish 6006:6006
 
 ### Adicionar os seguintes arquivos no diretório criado
   
->> Crie uma pasta com nome flores e adicione dentro dela as pastas de imagens "margarida" e "tulipa"
+>> Crie uma pasta com nome flores e adicione dentro dela as pastas de imagens "margarida" e "tulipa" que estão no repositório.
 >> Caso queira treinar outras categorias de flores basta colocar as pastas com as imagens das categorias desejadas.
 >> Banco de imagens disponível : http://download.tensorflow.org/example_images/flower_photos.tgz
    
@@ -70,9 +70,6 @@ baixe os arquivos deste repositório e coloque na pasta criada
 docker run -it --volume ${PWD}:/tf_files --workdir /tf_files --publish 6006:6006 tensorflow/tensorflow:1.1.0 bash
 
 ### Testa o modelo treinado
->> Baixe imagens de acordo com a categoria treinada, margarida ou tulipa, o coloque no diretório onde estão todos os arquivos
->> Use o comando abaixo passando o nome da imagem baixada
-
->> python label_image.py tulipa.jpg
+python label_image.py tulipa.jpg
 
 
